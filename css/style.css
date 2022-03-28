@@ -139,7 +139,6 @@ a {
 }
 
 .hero__title {
-    max-width: 100%;
     margin: 0;
     font-weight: 700;
     font-size: 44px;
@@ -539,6 +538,10 @@ p.blog__stick::after {
     .hero__title,
     .hero__text {
         text-align: center;
+    }
+    
+    .hero__title {
+        font-size: 32px;
     }
 
     .link--none {
