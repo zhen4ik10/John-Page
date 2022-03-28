@@ -542,6 +542,7 @@ p.blog__stick::after {
     
     .hero__title {
         font-size: 32px;
+        line-height: 40px
     }
 
     .link--none {
@@ -561,7 +562,7 @@ p.blog__stick::after {
 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
     .hero__block {
         flex-direction: column;
     }
@@ -570,4 +571,37 @@ p.blog__stick::after {
         display: flex;
         order: -1;
     }
+    
+    .post__title,
+    works__title {
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .posts__item__title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    .posts__item__date,
+    .works__item__block__date {
+        margin-top: 12px;
+    }
+    
+    .posts__des {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .works__item__title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    
+    .works__item__date,
+    works__item__des {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
 }
