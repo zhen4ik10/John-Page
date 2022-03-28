@@ -118,7 +118,7 @@ a {
 .menu-mob:hover .menu-mob__span::before {
     top: 50%;
     transform: translateY(-50%) rotate(45deg);
-    background-color: var(--gray-100);
+    background-color: var(--item-des-col);
 }
 /* /header */
 
@@ -139,6 +139,7 @@ a {
 }
 
 .hero__title {
+    max-width: 100%;
     margin: 0;
     font-weight: 700;
     font-size: 44px;
